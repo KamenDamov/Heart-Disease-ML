@@ -1,1 +1,1 @@
-web: python WebApp.ipynb
+web: python WebApp.ipynb --port=$PORT

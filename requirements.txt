@@ -4,5 +4,4 @@ scikit-learn
 pywebio
 Flask
 argparse
-re
 pickle

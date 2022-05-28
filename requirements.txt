@@ -1,6 +1,6 @@
 numpy
 pandas
-scikit-learn==1.1.1
+scikit-learn
 pywebio
-Flask==2.1.2
-argparse==1.4.0
+Flask
+argparse

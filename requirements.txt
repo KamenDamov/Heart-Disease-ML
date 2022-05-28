@@ -1,5 +1,5 @@
-numpy==1.15.4 
-pandas==1.4.0
+numpy
+pandas
 scikit-learn==1.1.1
 pywebio
 Flask==2.1.2

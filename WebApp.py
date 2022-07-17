@@ -139,13 +139,13 @@ def heart():
         popup("You do not have a heart disease (accuracy: 91%)")
 
 #Deploy app in Heroku        
-#if __name__ == '__main__':
-#    parser = argparse.ArgumentParser()
-#    parser.add_argument("-p","--port", type=int, default=8080)
-#    args = parser.parse_args()
-#    start_server(heart, port = args.port)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-p","--port", type=int, default=8080)
+    args = parser.parse_args()
+    start_server(heart, port = args.port)
         
-#Run app as localhost
+#Run app locally
 app.add_url_rule('/WebApp','webio_view',webio_view(heart),
                methods=['GET','POST','OPTIONS'])
 app.run('localhost',port=80)

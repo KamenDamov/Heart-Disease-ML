@@ -1,0 +1,6 @@
+Rfc grid search: 
+{'bootstrap': False, 'max_depth': 8, 'max_features': 'sqrt', 'min_samples_split': 8, 'n_estimators': 100}
+Test accuracy: 0.833
+
+Log grid search: 
+{'C': 6.0}
